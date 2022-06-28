@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="CApp">
+      <HintPath>..\CApp\bin\Debug\netstandard2.0\CApp.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
